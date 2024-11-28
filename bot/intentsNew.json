@@ -1,0 +1,2118 @@
+{
+    "intents": [
+        
+            {
+                "tag": "Saludo",
+                "patterns": ["Hola", "Buenos días", "Buenas tardes", "Buenas noches", "Ola", "Hello", "Hi", "."],
+                "responses": ["Hola, ¿en qué puedo ayudarte?", "Buenos días", "Buenas tardes", "Buenas noches", "Hola", "Hola humano", "Hello"]
+            },
+            {
+                "tag": "Despedida",
+                "patterns": ["Chao", "Adiós", "Gracias", "Gracias por todo", "Goodbye", "Hasta luego", "Chau", "Bye"],
+                "responses": ["Hasta luego", "Espero verte pronto 😁", "Me encantó ayudarte", "Adiós", "Un placer ayudarte", "Hasta la próxima", "Chau"]
+            },
+            {
+                "tag": "Creación de cuenta",
+                "patterns": [
+                    "crear cuenta",
+                    "cómo crear cuenta"
+                ],
+                "responses": [
+                    "Para crear una cuenta, haga clic en el botón 'Registrarse' en la esquina superior derecha de nuestro sitio web y siga las instrucciones para completar el proceso de registro."
+                ]
+            },
+            {
+                "tag": "Métodos de pago",
+                "patterns": [
+                    "métodos de pago",
+                    "qué métodos de pago aceptan"
+                ],
+                "responses": [
+                    "Aceptamos las principales tarjetas de crédito, tarjetas de débito y PayPal como métodos de pago para pedidos en línea."
+                ]
+            },
+            {
+                "tag": "Seguimiento de pedido",
+                "patterns": [
+                    "seguimiento de pedido",
+                    "cómo hacer el seguimiento de mi pedido"
+                ],
+                "responses": [
+                    "Puedes hacer el seguimiento de tu pedido ingresando a tu cuenta y navegando a la sección 'Historial de pedidos'. Allí encontrarás la información de seguimiento de tu envío."
+                ]
+            },
+            {
+                "tag": "Política de devoluciones",
+                "patterns": [
+                    "política de devoluciones",
+                    "cuál es la política de devoluciones"
+                ],
+                "responses": [
+                    "Nuestra política de devoluciones le permite devolver los productos dentro de los 30 días posteriores a la compra para obtener un reembolso total, siempre que se encuentren en su estado y embalaje originales. Consulte nuestra página de Devoluciones para obtener instrucciones detalladas."
+                ]
+            },
+            {
+                "tag": "Cancelación de pedido",
+                "patterns": [
+                    "cancelar pedido",
+                    "puedo cancelar mi pedido"
+                ],
+                "responses": [
+                    "Puede cancelar su pedido si aún no se ha enviado. Comuníquese con nuestro equipo de atención al cliente con los detalles de su pedido y lo ayudaremos con el proceso de cancelación."
+                ]
+            },
+            {
+                "tag": "Tiempo de envío",
+                "patterns": [
+                    "tiempo de envío",
+                    "cuánto tarda el envío"
+                ],
+                "responses": [
+                    "Los tiempos de envío varían según el destino y el método de envío elegido. El envío estándar suele tardar entre 3 y 5 días hábiles, mientras que el envío exprés puede tardar entre 1 y 2 días hábiles."
+                ]
+            },
+            {
+                "tag": "Envíos internacionales",
+                "patterns": [
+                    "envíos internacionales",
+                    "ofrecen envíos internacionales"
+                ],
+                "responses": [
+                    "Sí, ofrecemos envíos internacionales a países seleccionados. La disponibilidad y los costos de envío se calcularán durante el proceso de pago en función de su ubicación."
+                ]
+            },
+            {
+                "tag": "Problemas con el paquete",
+                "patterns": [
+                    "paquete perdido",
+                    "paquete dañado",
+                    "qué hacer si mi paquete se pierde o se daña"
+                ],
+                "responses": [
+                    "Si su paquete se pierde o se daña durante el transporte, comuníquese con nuestro equipo de atención al cliente de inmediato. Iniciaremos una investigación y tomaremos las medidas necesarias para resolver el problema."
+                ]
+            },
+            {
+                "tag": "Cambio de dirección de envío",
+                "patterns": [
+                    "cambiar dirección de envío",
+                    "puedo cambiar mi dirección de envío después de realizar un pedido"
+                ],
+                "responses": [
+                    "Si necesita cambiar su dirección de envío, comuníquese con nuestro equipo de atención al cliente lo antes posible. Haremos todo lo posible para actualizar la dirección si el pedido aún no se ha enviado."
+                ]
+            },
+            {
+                "tag": "Contacto con atención al cliente",
+                "patterns": [
+                    "contactar con atención al cliente",
+                    "cómo contactar con el servicio de atención al cliente"
+                ],
+                "responses": [
+                    "Puede ponerse en contacto con nuestro equipo de atención al cliente por teléfono al [número de teléfono] o por correo electrónico a [dirección de correo electrónico]. Nuestro equipo está disponible el [horario de trabajo] para ayudarle con cualquier consulta o problema que pueda tener."
+                ]
+            },
+            {
+                "tag": "Opciones de regalo",
+                "patterns": [
+                    "envoltura de regalo",
+                    "opciones de regalo"
+                ],
+                "responses": [
+                    "Sí, ofrecemos servicios de envoltura de regalos por una tarifa adicional. Durante el proceso de pago, puede seleccionar la opción de agregar envoltura de regalo a su pedido."
+                ]
+            },
+            {
+                "tag": "Política de igualación de precios",
+                "patterns": [
+                    "igualación de precios",
+                    "política de igualación de precios"
+                ],
+                "responses": [
+                    "Tenemos una política de igualación de precios según la cual igualaremos el precio de un producto idéntico que se encuentre en el sitio web de un competidor. Comuníquese con nuestro equipo de atención al cliente con los detalles del producto y la oferta del competidor."
+                ]
+            },
+            {
+                "tag": "Pedidos por teléfono",
+                "patterns": [
+                    "hacer pedido por teléfono",
+                    "puedo hacer un pedido por teléfono"
+                ],
+                "responses": [
+                    "Lamentablemente, no aceptamos pedidos por teléfono. Realice su pedido a través de nuestro sitio web para una transacción segura y sin complicaciones."
+                ]
+            },
+            {
+                "tag": "Seguridad de datos",
+                "patterns": [
+                    "seguridad de datos",
+                    "están seguros mis datos personales y de pago"
+                ],
+                "responses": [
+                    "Sí, nos tomamos muy en serio la seguridad de sus datos personales y de pago. Utilizamos un cifrado estándar de la industria y seguimos estrictos protocolos de seguridad para garantizar la protección de su información."
+                ]
+            },
+            
+    {
+        "tag": "Creación de cuenta",
+        "patterns": [
+            "cómo crear una cuenta",
+            "cómo registrarme",
+            "proceso de registro"
+        ],
+        "responses": [
+            "Para crear una cuenta, haga clic en el botón 'Registrarse' en la esquina superior derecha de nuestro sitio web y siga las instrucciones para completar el proceso de registro."
+        ]
+    },
+    {
+        "tag": "Métodos de pago",
+        "patterns": [
+            "métodos de pago",
+            "qué métodos de pago aceptan"
+        ],
+        "responses": [
+            "Aceptamos las principales tarjetas de crédito, tarjetas de débito y PayPal como métodos de pago para pedidos en línea."
+        ]
+    },
+    {
+        "tag": "Seguimiento de pedido",
+        "patterns": [
+            "cómo hacer el seguimiento de mi pedido",
+            "seguimiento de envío"
+        ],
+        "responses": [
+            "Puedes hacer el seguimiento de tu pedido ingresando a tu cuenta y navegando a la sección 'Historial de pedidos'. Allí encontrarás la información de seguimiento de tu envío."
+        ]
+    },
+    {
+        "tag": "Política de devoluciones",
+        "patterns": [
+            "política de devoluciones",
+            "cómo devolver un producto",
+            "cuál es su política de devoluciones"
+        ],
+        "responses": [
+            "Nuestra política de devoluciones le permite devolver los productos dentro de los 30 días posteriores a la compra para obtener un reembolso total, siempre que se encuentren en su estado y embalaje originales. Consulte nuestra página de Devoluciones para obtener instrucciones detalladas."
+        ]
+    },
+    {
+        "tag": "Cancelación de pedido",
+        "patterns": [
+            "puedo cancelar mi pedido",
+            "cómo cancelar un pedido"
+        ],
+        "responses": [
+            "Puede cancelar su pedido si aún no se ha enviado. Comuníquese con nuestro equipo de atención al cliente con los detalles de su pedido y lo ayudaremos con el proceso de cancelación."
+        ]
+    },
+    {
+        "tag": "Tiempo de envío",
+        "patterns": [
+            "cuánto tiempo tarda el envío",
+            "tiempo de entrega"
+        ],
+        "responses": [
+            "Los tiempos de envío varían según el destino y el método de envío elegido. El envío estándar suele tardar entre 3 y 5 días hábiles, mientras que el envío exprés puede tardar entre 1 y 2 días hábiles."
+        ]
+    },
+    {
+        "tag": "Envíos internacionales",
+        "patterns": [
+            "ofrecen envíos internacionales",
+            "envíos a otros países"
+        ],
+        "responses": [
+            "Sí, ofrecemos envíos internacionales a países seleccionados. La disponibilidad y los costos de envío se calcularán durante el proceso de pago en función de su ubicación."
+        ]
+    },
+    {
+        "tag": "Paquete perdido o dañado",
+        "patterns": [
+            "paquete perdido",
+            "paquete dañado",
+            "qué hacer si mi paquete se pierde o se daña"
+        ],
+        "responses": [
+            "Si su paquete se pierde o se daña durante el transporte, comuníquese con nuestro equipo de atención al cliente de inmediato. Iniciaremos una investigación y tomaremos las medidas necesarias para resolver el problema."
+        ]
+    },
+    {
+        "tag": "Cambio de dirección de envío",
+        "patterns": [
+            "cambiar dirección de envío",
+            "puedo cambiar mi dirección de envío"
+        ],
+        "responses": [
+            "Si necesita cambiar su dirección de envío, comuníquese con nuestro equipo de atención al cliente lo antes posible. Haremos todo lo posible para actualizar la dirección si el pedido aún no se ha enviado."
+        ]
+    },
+    {
+        "tag": "Contacto con atención al cliente",
+        "patterns": [
+            "cómo contactar con atención al cliente",
+            "contactar servicio al cliente"
+        ],
+        "responses": [
+            "Puede ponerse en contacto con nuestro equipo de atención al cliente por teléfono al [número de teléfono] o por correo electrónico a [dirección de correo electrónico]. Nuestro equipo está disponible el [horario de trabajo] para ayudarle con cualquier consulta o problema que pueda tener."
+        ]
+    },
+    {
+        "tag": "Opciones de regalo",
+        "patterns": [
+            "envoltura de regalo",
+            "opciones de regalo",
+            "pedido como regalo"
+        ],
+        "responses": [
+            "Sí, ofrecemos servicios de envoltura de regalos por una tarifa adicional. Durante el proceso de pago, puede seleccionar la opción de agregar envoltura de regalo a su pedido."
+        ]
+    },
+    {
+        "tag": "Igualación de precios",
+        "patterns": [
+            "política de igualación de precios",
+            "ofrecen igualación de precios"
+        ],
+        "responses": [
+            "Tenemos una política de igualación de precios según la cual igualaremos el precio de un producto idéntico que se encuentre en el sitio web de un competidor. Comuníquese con nuestro equipo de atención al cliente con los detalles del producto y la oferta del competidor."
+        ]
+    },
+    {
+        "tag": "Pedido por teléfono",
+        "patterns": [
+            "hacer pedido por teléfono",
+            "puedo pedir por teléfono"
+        ],
+        "responses": [
+            "Lamentablemente, no aceptamos pedidos por teléfono. Realice su pedido a través de nuestro sitio web para una transacción segura y sin complicaciones."
+        ]
+    },
+    {
+        "tag": "Seguridad de datos",
+        "patterns": [
+            "seguridad de datos personales",
+            "seguridad de datos de pago"
+        ],
+        "responses": [
+            "Sí, nos tomamos muy en serio la seguridad de sus datos personales y de pago. Utilizamos un cifrado estándar de la industria y seguimos estrictos protocolos de seguridad para garantizar la protección de su información."
+        ]
+    },
+    {
+        "tag": "Descuentos y promociones",
+        "patterns": [
+            "cómo aplicar un código promocional",
+            "puedo usar varios códigos promocionales"
+        ],
+        "responses": [
+            "Normalmente, solo se puede aplicar un código promocional por pedido. Durante el proceso de pago, ingresa el código promocional en el campo designado para aplicar el descuento a tu pedido."
+        ]
+    },
+    {
+        "tag": "Reseñas de productos",
+        "patterns": [
+            "dejar una reseña",
+            "cómo dejar una reseña de un producto"
+        ],
+        "responses": [
+            "Para dejar una reseña de un producto, dirígete a la página del producto en nuestro sitio web y haz clic en el botón 'Escribir una reseña'. Puedes compartir tus comentarios y tu calificación en función de tu experiencia con el producto."
+        ]
+    },
+    {
+        "tag": "Cancelación de artículos en pedido",
+        "patterns": [
+            "cambiar o cancelar un artículo",
+            "puedo cambiar o cancelar un artículo de mi pedido"
+        ],
+        "responses": [
+            "Si necesita cambiar o cancelar un artículo de su pedido, comuníquese con nuestro equipo de atención al cliente lo antes posible. Lo ayudaremos con los pasos necesarios."
+        ]
+    },
+    {
+        "tag": "Paquete equivocado",
+        "patterns": [
+            "recibí el artículo equivocado",
+            "qué hacer si recibo el artículo equivocado"
+        ],
+        "responses": [
+            "Si recibe el artículo equivocado en su pedido, comuníquese con nuestro equipo de atención al cliente de inmediato. Nos encargaremos de enviarle el artículo correcto y le ayudaremos a devolver el artículo equivocado."
+        ]
+    },
+    {
+        "tag": "Pedido agotado",
+        "patterns": [
+            "puedo pedir un producto agotado",
+            "producto agotado"
+        ],
+        "responses": [
+            "Si un producto está actualmente agotado, normalmente verás una opción para registrarte para recibir notificaciones de productos. De esta manera, recibirás una alerta cuando el producto vuelva a estar disponible."
+        ]
+    },
+    {
+        "tag": "Envíos rápidos",
+        "patterns": [
+            "ofrecen envíos rápidos",
+            "envíos rápidos"
+        ],
+        "responses": [
+            "Sí, ofrecemos opciones de envío rápido para una entrega más rápida. Durante el proceso de pago, puede seleccionar el método de envío rápido que desee."
+        ]
+    },
+    {
+        "tag": "Boletín informativo",
+        "patterns": [
+            "de qué trata el boletín informativo",
+            "boletín informativo"
+        ],
+        "responses": [
+            "Nuestro boletín informativo por correo electrónico proporciona actualizaciones sobre nuevos lanzamientos de productos, ofertas exclusivas y consejos útiles relacionados con nuestros productos. Puede suscribirse a nuestro boletín informativo en nuestro sitio web."
+        ]
+    },
+    {
+        "tag": "Devoluciones por cambio de opinión",
+        "patterns": [
+            "devolver producto por cambio de opinión",
+            "puedo devolver un producto si cambié de opinión"
+        ],
+        "responses": [
+            "Sí, puedes devolver un producto si cambiaste de opinión. Asegúrate de que el producto esté en su estado y empaque original, y consulta nuestra política de devoluciones para obtener instrucciones."
+        ]
+    },
+    {
+        "tag": "Soporte en vivo",
+        "patterns": [
+            "soporte chat en vivo",
+            "ofrecen soporte mediante chat en vivo"
+        ],
+        "responses": [
+            "Sí, ofrecemos soporte mediante chat en vivo en nuestro sitio web durante nuestro horario comercial. Busque el ícono de chat en la esquina inferior derecha para iniciar un chat con nuestro equipo de atención al cliente."
+        ]
+    },
+        {
+            "tag": "Creación de cuenta",
+            "patterns": [
+                "cómo crear una cuenta",
+                "cómo registrarme",
+                "proceso de registro"
+            ],
+            "responses": [
+                "Para crear una cuenta, haga clic en el botón 'Registrarse' en la esquina superior derecha de nuestro sitio web y siga las instrucciones para completar el proceso de registro."
+            ]
+        },
+        {
+            "tag": "Métodos de pago",
+            "patterns": [
+                "métodos de pago",
+                "qué métodos de pago aceptan"
+            ],
+            "responses": [
+                "Aceptamos las principales tarjetas de crédito, tarjetas de débito y PayPal como métodos de pago para pedidos en línea."
+            ]
+        },
+        {
+            "tag": "Seguimiento de pedido",
+            "patterns": [
+                "cómo hacer el seguimiento de mi pedido",
+                "seguimiento de envío"
+            ],
+            "responses": [
+                "Puedes hacer el seguimiento de tu pedido ingresando a tu cuenta y navegando a la sección 'Historial de pedidos'. Allí encontrarás la información de seguimiento de tu envío."
+            ]
+        },
+        {
+            "tag": "Política de devoluciones",
+            "patterns": [
+                "política de devoluciones",
+                "cómo devolver un producto",
+                "cuál es su política de devoluciones"
+            ],
+            "responses": [
+                "Nuestra política de devoluciones le permite devolver los productos dentro de los 30 días posteriores a la compra para obtener un reembolso total, siempre que se encuentren en su estado y embalaje originales. Consulte nuestra página de Devoluciones para obtener instrucciones detalladas."
+            ]
+        },
+        {
+            "tag": "Cancelación de pedido",
+            "patterns": [
+                "puedo cancelar mi pedido",
+                "cómo cancelar un pedido"
+            ],
+            "responses": [
+                "Puede cancelar su pedido si aún no se ha enviado. Comuníquese con nuestro equipo de atención al cliente con los detalles de su pedido y lo ayudaremos con el proceso de cancelación."
+            ]
+        },
+        {
+            "tag": "Tiempo de envío",
+            "patterns": [
+                "cuánto tiempo tarda el envío",
+                "tiempo de entrega"
+            ],
+            "responses": [
+                "Los tiempos de envío varían según el destino y el método de envío elegido. El envío estándar suele tardar entre 3 y 5 días hábiles, mientras que el envío exprés puede tardar entre 1 y 2 días hábiles."
+            ]
+        },
+        {
+            "tag": "Envíos internacionales",
+            "patterns": [
+                "ofrecen envíos internacionales",
+                "envíos a otros países"
+            ],
+            "responses": [
+                "Sí, ofrecemos envíos internacionales a países seleccionados. La disponibilidad y los costos de envío se calcularán durante el proceso de pago en función de su ubicación."
+            ]
+        },
+        {
+            "tag": "Paquete perdido o dañado",
+            "patterns": [
+                "paquete perdido",
+                "paquete dañado",
+                "qué hacer si mi paquete se pierde o se daña"
+            ],
+            "responses": [
+                "Si su paquete se pierde o se daña durante el transporte, comuníquese con nuestro equipo de atención al cliente de inmediato. Iniciaremos una investigación y tomaremos las medidas necesarias para resolver el problema."
+            ]
+        },
+        {
+            "tag": "Cambio de dirección de envío",
+            "patterns": [
+                "cambiar dirección de envío",
+                "puedo cambiar mi dirección de envío"
+            ],
+            "responses": [
+                "Si necesita cambiar su dirección de envío, comuníquese con nuestro equipo de atención al cliente lo antes posible. Haremos todo lo posible para actualizar la dirección si el pedido aún no se ha enviado."
+            ]
+        },
+        {
+            "tag": "Contacto con atención al cliente",
+            "patterns": [
+                "cómo contactar con atención al cliente",
+                "contactar servicio al cliente"
+            ],
+            "responses": [
+                "Puede ponerse en contacto con nuestro equipo de atención al cliente por teléfono al [número de teléfono] o por correo electrónico a [dirección de correo electrónico]. Nuestro equipo está disponible el [horario de trabajo] para ayudarle con cualquier consulta o problema que pueda tener."
+            ]
+        },
+        {
+            "tag": "Opciones de regalo",
+            "patterns": [
+                "envoltura de regalo",
+                "opciones de regalo",
+                "pedido como regalo"
+            ],
+            "responses": [
+                "Sí, ofrecemos servicios de envoltura de regalos por una tarifa adicional. Durante el proceso de pago, puede seleccionar la opción de agregar envoltura de regalo a su pedido."
+            ]
+        },
+        {
+            "tag": "Igualación de precios",
+            "patterns": [
+                "política de igualación de precios",
+                "ofrecen igualación de precios"
+            ],
+            "responses": [
+                "Tenemos una política de igualación de precios según la cual igualaremos el precio de un producto idéntico que se encuentre en el sitio web de un competidor. Comuníquese con nuestro equipo de atención al cliente con los detalles del producto y la oferta del competidor."
+            ]
+        },
+        {
+            "tag": "Pedido por teléfono",
+            "patterns": [
+                "hacer pedido por teléfono",
+                "puedo pedir por teléfono"
+            ],
+            "responses": [
+                "Lamentablemente, no aceptamos pedidos por teléfono. Realice su pedido a través de nuestro sitio web para una transacción segura y sin complicaciones."
+            ]
+        },
+        {
+            "tag": "Seguridad de datos",
+            "patterns": [
+                "seguridad de datos personales",
+                "seguridad de datos de pago"
+            ],
+            "responses": [
+                "Sí, nos tomamos muy en serio la seguridad de sus datos personales y de pago. Utilizamos un cifrado estándar de la industria y seguimos estrictos protocolos de seguridad para garantizar la protección de su información."
+            ]
+        },
+        {
+            "tag": "Descuentos y promociones",
+            "patterns": [
+                "cómo aplicar un código promocional",
+                "puedo usar varios códigos promocionales"
+            ],
+            "responses": [
+                "Normalmente, solo se puede aplicar un código promocional por pedido. Durante el proceso de pago, ingresa el código promocional en el campo designado para aplicar el descuento a tu pedido."
+            ]
+        },
+        {
+            "tag": "Reseñas de productos",
+            "patterns": [
+                "dejar una reseña",
+                "cómo dejar una reseña de un producto"
+            ],
+            "responses": [
+                "Para dejar una reseña de un producto, dirígete a la página del producto en nuestro sitio web y haz clic en el botón 'Escribir una reseña'. Puedes compartir tus comentarios y tu calificación en función de tu experiencia con el producto."
+            ]
+        },
+        {
+            "tag": "Cancelación de artículos en pedido",
+            "patterns": [
+                "cambiar o cancelar un artículo",
+                "puedo cambiar o cancelar un artículo de mi pedido"
+            ],
+            "responses": [
+                "Si necesita cambiar o cancelar un artículo de su pedido, comuníquese con nuestro equipo de atención al cliente lo antes posible. Lo ayudaremos con los pasos necesarios."
+            ]
+        },
+        {
+            "tag": "Paquete equivocado",
+            "patterns": [
+                "recibí el artículo equivocado",
+                "qué hacer si recibo el artículo equivocado"
+            ],
+            "responses": [
+                "Si recibe el artículo equivocado en su pedido, comuníquese con nuestro equipo de atención al cliente de inmediato. Nos encargaremos de enviarle el artículo correcto y le ayudaremos a devolver el artículo equivocado."
+            ]
+        },
+        {
+            "tag": "Pedido agotado",
+            "patterns": [
+                "puedo pedir un producto agotado",
+                "producto agotado"
+            ],
+            "responses": [
+                "Si un producto está actualmente agotado, normalmente verás una opción para registrarte para recibir notificaciones de productos. De esta manera, recibirás una alerta cuando el producto vuelva a estar disponible."
+            ]
+        },
+        {
+            "tag": "Envíos rápidos",
+            "patterns": [
+                "ofrecen envíos rápidos",
+                "envíos rápidos"
+            ],
+            "responses": [
+                "Sí, ofrecemos opciones de envío rápido para una entrega más rápida. Durante el proceso de pago, puede seleccionar el método de envío rápido que desee."
+            ]
+        },
+        {
+            "tag": "Boletín informativo",
+            "patterns": [
+                "de qué trata el boletín informativo",
+                "boletín informativo"
+            ],
+            "responses": [
+                "Nuestro boletín informativo por correo electrónico proporciona actualizaciones sobre nuevos lanzamientos de productos, ofertas exclusivas y consejos útiles relacionados con nuestros productos. Puede suscribirse a nuestro boletín informativo en nuestro sitio web."
+            ]
+        },
+        {
+            "tag": "Devoluciones por cambio de opinión",
+            "patterns": [
+                "devolver producto por cambio de opinión",
+                "puedo devolver un producto si cambié de opinión"
+            ],
+            "responses": [
+                "Sí, puedes devolver un producto si cambiaste de opinión. Asegúrate de que el producto esté en su estado y empaque original, y consulta nuestra política de devoluciones para obtener instrucciones."
+            ]
+        },
+        {
+            "tag": "Soporte en vivo",
+            "patterns": [
+                "soporte chat en vivo",
+                "ofrecen soporte mediante chat en vivo"
+            ],
+            "responses": [
+                "Sí, ofrecemos soporte mediante chat en vivo en nuestro sitio web durante nuestro horario comercial. Busque el ícono de chat en la esquina inferior derecha para iniciar un chat con nuestro equipo de atención al cliente."
+            ]
+        },
+        {
+            "tag": "Servicios de instalación",
+            "patterns": [
+                "servicios de instalación", 
+                "instalación productos"
+            ],
+            "responses": [
+                "Los servicios de instalación están disponibles para productos seleccionados. Consulte la descripción del producto o comuníquese con nuestro equipo de atención al cliente para obtener más información y solicitar servicios de instalación."
+            ]
+        },
+        {
+            "tag": "Productos descontinuados",
+            "patterns": [
+                "producto descontinuado", 
+                "pedido descontinuado"
+            ],
+            "responses": [
+                "Los productos descontinuados ya no están disponibles para su compra. Recomendamos explorar productos alternativos en nuestro sitio web."
+            ]
+        },
+        {
+            "tag": "Devoluciones sin recibo",
+            "patterns": [
+                "devolver producto sin recibo", 
+                "devolución sin comprobante"
+            ],
+            "responses": [
+                "Normalmente se requiere un recibo o comprobante de compra para las devoluciones. Consulta nuestra política de devoluciones o comunícate con nuestro equipo de atención al cliente para obtener ayuda."
+            ]
+        },
+        {
+            "tag": "Envíos internacionales",
+            "patterns": [
+                "enviar producto a otro país", 
+                "envío internacional"
+            ],
+            "responses": [
+                "Sí, ofrecemos envíos internacionales a determinados países. Revise los destinos de envío disponibles durante el proceso de pago o comuníquese con nuestro servicio de atención al cliente para obtener ayuda."
+            ]
+        },
+        {
+            "tag": "Opciones de regalo",
+            "patterns": [
+                "mensaje de regalo", 
+                "añadir mensaje regalo"
+            ],
+            "responses": [
+                "Sí, puedes añadir un mensaje de regalo durante el proceso de pago. Normalmente hay una sección donde puedes introducir tu mensaje personalizado."
+            ]
+        },
+        {
+            "tag": "Demostración de productos",
+            "patterns": [
+                "demostración de producto", 
+                "probar producto antes de comprar"
+            ],
+            "responses": [
+                "Actualmente no ofrecemos demostraciones de productos antes de la compra. Sin embargo, puede encontrar descripciones detalladas de los productos, especificaciones y opiniones de clientes en nuestro sitio web."
+            ]
+        },
+        {
+            "tag": "Productos próximos",
+            "patterns": [
+                "producto próximo", 
+                "producto próximamente"
+            ],
+            "responses": [
+                "Los productos que figuran como 'próximamente' no están disponibles para su compra inmediata. Regístrese para recibir notificaciones y recibir información cuando el producto esté disponible."
+            ]
+        },
+        {
+            "tag": "Factura de pedido",
+            "patterns": [
+                "solicitar factura", 
+                "factura de pedido"
+            ],
+            "responses": [
+                "Sí, normalmente se incluye una factura con el pedido. Si necesita una factura aparte, póngase en contacto con nuestro equipo de atención al cliente con los detalles de su pedido."
+            ]
+        },
+        {
+            "tag": "Productos edición limitada",
+            "patterns": [
+                "producto edición limitada", 
+                "pedido edición limitada"
+            ],
+            "responses": [
+                "Los productos de 'edición limitada' pueden tener disponibilidad restringida. Recomendamos realizar un pedido lo antes posible para asegurar su artículo."
+            ]
+        },
+        {
+            "tag": "Devoluciones sin embalaje original",
+            "patterns": [
+                "devolver sin embalaje original", 
+                "devolución sin embalaje"
+            ],
+            "responses": [
+                "Si bien es preferible devolver un producto en su embalaje original, aún puedes iniciar una devolución sin él. Comunícate con nuestro equipo de atención al cliente para obtener orientación en tales casos."
+            ]
+        },
+        {
+            "tag": "Reservas de productos agotados",
+            "patterns": [
+                "reservar producto agotado", 
+                "producto fuera de stock"
+            ],
+            "responses": [
+                "No ofrecemos reservas para productos fuera de stock. Sin embargo, puedes registrarte para recibir notificaciones de productos para que te avisemos cuando vuelvan a estar disponibles."
+            ]
+        },
+        {
+            "tag": "Combinación de productos en preventa y stock",
+            "patterns": [
+                "combinación preventa y stock", 
+                "pedido preventa y artículos en stock"
+            ],
+            "responses": [
+                "Sí, puedes hacer un pedido con una combinación de artículos en preventa y en stock. Sin embargo, ten en cuenta que el pedido completo se enviará una vez que todos los artículos estén disponibles."
+            ]
+        },
+        {
+            "tag": "Devolución por daño en el envío",
+            "patterns": [
+                "devolución daño envío", 
+                "producto dañado durante envío"
+            ],
+            "responses": [
+                "Si su producto se dañó durante el envío, comuníquese con nuestro equipo de atención al cliente de inmediato. Lo guiaremos a través del proceso de devolución y reemplazo."
+            ]
+        },
+        {
+            "tag": "Reabastecimiento de productos agotados",
+            "patterns": [
+                "reabastecer producto agotado", 
+                "producto fuera de stock"
+            ],
+            "responses": [
+                "No ofrecemos la opción de solicitar que se vuelva a poner en stock un producto agotado. Sin embargo, puedes registrarte para recibir notificaciones cuando el producto esté disponible nuevamente."
+            ]
+        },
+        {
+            "tag": "Programas de fidelización",
+            "patterns": [
+                "programa de fidelización"
+            ],
+            "responses": [
+                "Sí, tenemos un programa de fidelización en el que puede ganar puntos por cada compra. Estos puntos se pueden canjear por descuentos en pedidos futuros. Visite nuestro sitio web para obtener más información y unirse al programa."
+            ]
+        },
+        {
+            "tag": "Pedidos sin cuenta",
+            "patterns": [
+                "realizar un pedido sin crear una cuenta"
+            ],
+            "responses": [
+                "Sí, puedes realizar un pedido como invitado sin crear una cuenta. Sin embargo, crear una cuenta ofrece beneficios como el seguimiento del pedido y compras futuras más sencillas."
+            ]
+        },
+        {
+            "tag": "Descuentos por volumen",
+            "patterns": [
+                "descuentos por volumen", 
+                "descuentos por mayor"
+            ],
+            "responses": [
+                "Sí, ofrecemos descuentos por volumen o por mayor para ciertos productos. Comuníquese con nuestro equipo de atención al cliente o visite nuestra página de Mayoristas para obtener más información y analizar sus requisitos específicos."
+            ]
+        },
+        {
+            "tag": "Cambiar o cancelar pedido",
+            "patterns": [
+                "cambiar artículo pedido", 
+                "cancelar artículo pedido"
+            ],
+            "responses": [
+                "Si necesita cambiar o cancelar un artículo de su pedido, comuníquese con nuestro equipo de atención al cliente lo antes posible. Lo ayudaremos con los pasos necesarios."
+            ]
+        },
+        {
+            "tag": "Dejar reseña de producto",
+            "patterns": [
+                "dejar reseña producto"
+            ],
+            "responses": [
+                "Para dejar una reseña de un producto, dirígete a la página del producto en nuestro sitio web y haz clic en el botón 'Escribir una reseña'. Puedes compartir tus comentarios y tu calificación en función de tu experiencia con el producto."
+            ]
+        },
+        {
+            "tag": "Usar múltiples códigos promocionales",
+            "patterns": [
+                "usar varios códigos promocionales"
+            ],
+            "responses": [
+                "Normalmente, solo se puede aplicar un código promocional por pedido. Durante el proceso de pago, ingresa el código promocional en el campo designado para aplicar el descuento a tu pedido."
+            ]
+        },
+        {
+            "tag": "Artículo equivocado recibido",
+            "patterns": [
+                "recibir artículo equivocado"
+            ],
+            "responses": [
+                "Si recibe el artículo equivocado en su pedido, comuníquese con nuestro equipo de atención al cliente de inmediato. Nos encargaremos de enviarle el artículo correcto y le ayudaremos a devolver el artículo equivocado."
+            ]
+        },
+        {
+            "tag": "Envíos rápidos",
+            "patterns": [
+                "enviar rápidamente"
+            ],
+            "responses": [
+                "Sí, ofrecemos opciones de envío rápido para una entrega más rápida. Durante el proceso de pago, puede seleccionar el método de envío rápido que desee."
+            ]
+        },
+        {
+            "tag": "Producto agotado",
+            "patterns": [
+                "pedido producto agotado"
+            ],
+            "responses": [
+                "Si un producto está actualmente agotado, normalmente verás una opción para registrarte para recibir notificaciones de productos. De esta manera, recibirás una alerta cuando el producto vuelva a estar disponible."
+            ]
+        },
+        {
+            "tag": "Boletín informativo",
+            "patterns": [
+                "boletín informativo por correo electrónico"
+            ],
+            "responses": [
+                "Nuestro boletín informativo por correo electrónico proporciona actualizaciones sobre nuevos lanzamientos de productos, ofertas exclusivas y consejos útiles relacionados con nuestros productos. Puede suscribirse a nuestro boletín informativo en nuestro sitio web."
+            ]
+        },
+        {
+            "tag": "Devolución por cambio de opinión",
+            "patterns": [
+                "devolver producto por cambiar de opinión"
+            ],
+            "responses": [
+                "Sí, puedes devolver un producto si cambiaste de opinión. Asegúrate de que el producto esté en su estado y empaque original, y consulta nuestra política de devoluciones para obtener instrucciones."
+            ]
+        },
+        {
+            "tag": "Soporte mediante chat en vivo",
+            "patterns": [
+                "soporte chat en vivo"
+            ],
+            "responses": [
+                "Sí, ofrecemos soporte mediante chat en vivo en nuestro sitio web durante nuestro horario comercial. Busque el ícono de chat en la esquina inferior derecha para iniciar un chat con nuestro equipo de atención al cliente."
+            ]
+        },
+        {
+            "tag": "Pedido como regalo",
+            "patterns": [
+                "pedido producto como regalo"
+            ],
+            "responses": [
+                "Sí, puedes pedir un producto como regalo y enviarlo directamente al destinatario. Durante el proceso de pago, puedes introducir la dirección de envío del destinatario."
+            ]
+        },
+        {
+            "tag": "Código de descuento no funciona",
+            "patterns": [
+                "código de descuento no funciona"
+            ],
+            "responses": [
+                "Si su código de descuento no funciona, verifique nuevamente los términos y condiciones asociados con el código. Si el problema persiste, comuníquese con nuestro equipo de atención al cliente para obtener ayuda."
+            ]
+        },
+        {
+            "tag": "Devolución de artículo de venta final",
+            "patterns": [
+                "devolución de artículo de venta final"
+            ],
+            "responses": [
+                "Normalmente no aceptamos devoluciones de productos marcados como 'venta final'. Por favor, consulte nuestra política de devoluciones para más detalles."
+            ]
+        },
+        {
+            "tag": "Servicios de instalación",
+            "patterns": [
+                "servicios de instalación"
+            ],
+            "responses": [
+                "Los servicios de instalación están disponibles para productos seleccionados. Consulte la descripción del producto o comuníquese con nuestro equipo de atención al cliente para obtener más información y solicitar servicios de instalación."
+            ]
+        },
+        {
+            "tag": "Producto descontinuado",
+            "patterns": [
+                "producto descontinuado"
+            ],
+            "responses": [
+                "Los productos descontinuados ya no están disponibles para su compra. Recomendamos explorar productos alternativos en nuestro sitio web."
+            ]
+        },
+        {
+            "tag": "Devolución sin recibo",
+            "patterns": [
+                "devolver producto sin recibo"
+            ],
+            "responses": [
+                "Normalmente se requiere un recibo o comprobante de compra para las devoluciones. Consulta nuestra política de devoluciones o comunícate con nuestro equipo de atención al cliente para obtener ayuda."
+            ]
+        },
+        {
+            "tag": "Envíos internacionales",
+            "patterns": [
+                "enviar producto a otro país"
+            ],
+            "responses": [
+                "Sí, ofrecemos envíos internacionales a determinados países. Revise los destinos de envío disponibles durante el proceso de pago o comuníquese con nuestro servicio de atención al cliente para obtener ayuda."
+            ]
+        },
+        {
+            "tag": "Mensaje de regalo",
+            "patterns": [
+                "añadir mensaje de regalo"
+            ],
+            "responses": [
+                "Sí, puedes añadir un mensaje de regalo durante el proceso de pago. Normalmente hay una sección donde puedes introducir tu mensaje personalizado."
+            ]
+        },
+        {
+            "tag": "Demostración de producto",
+            "patterns": [
+                "solicitar demostración de producto"
+            ],
+            "responses": [
+                "Actualmente no ofrecemos demostraciones de productos antes de la compra. Sin embargo, puede encontrar descripciones detalladas de los productos, especificaciones y opiniones de clientes en nuestro sitio web."
+            ]
+        },
+        {
+            "tag": "Producto 'próximamente'",
+            "patterns": [
+                "producto 'próximamente'"
+            ],
+            "responses": [
+                "Los productos que figuran como 'próximamente' no están disponibles para su compra inmediata. Regístrese para recibir notificaciones y recibir información cuando el producto esté disponible."
+            ]
+        },
+        {
+            "tag": "Factura de pedido",
+            "patterns": [
+                "solicitar factura de pedido"
+            ],
+            "responses": [
+                "Sí, normalmente se incluye una factura con el pedido. Si necesita una factura aparte, póngase en contacto con nuestro equipo de atención al cliente con los detalles de su pedido."
+            ]
+        },
+        {
+            "tag": "Producto 'edición limitada'",
+            "patterns": [
+                "producto 'edición limitada'"
+            ],
+            "responses": [
+                "Los productos de 'edición limitada' pueden tener disponibilidad restringida. Recomendamos realizar un pedido lo antes posible para asegurar su artículo."
+            ]
+        },
+        {
+            "tag": "Devolución sin embalaje original",
+            "patterns": [
+                "devolución sin embalaje original"
+            ],
+            "responses": [
+                "Si bien es preferible devolver un producto en su embalaje original, aún puedes iniciar una devolución sin él. Comunícate con nuestro equipo de atención al cliente para obtener orientación en tales casos."
+            ]
+        },
+        {
+            "tag": "Stock",
+            "patterns": [
+                "descontinuado",
+                "agotado",
+                "fuera de stock",
+                "próximamente",
+                "en espera",
+                "temporalmente no disponible"
+            ],
+            "responses": [
+                "Si un producto está 'descontinuado', ya no está disponible para su compra.",
+                "Si un producto está 'agotado', no está disponible para su compra en este momento.",
+                "Si un producto está 'fuera de stock', no está disponible para su compra temporalmente.",
+                "Si un producto está 'próximamente', deberás esperar hasta que se lance oficialmente.",
+                "Si un producto está en 'espera', no está disponible temporalmente.",
+                "Si un producto está 'temporalmente no disponible', es posible que vuelva a estar en stock."
+            ]
+        },
+        {
+            "tag": "Pedidos anticipados",
+            "patterns": [
+                "pedido anticipado",
+                "pendiente de pedido",
+                "pedido por adelantado"
+            ],
+            "responses": [
+                "Si un producto está disponible para 'pedido anticipado', puedes realizar un pedido para asegurar tu artículo.",
+                "Si un producto está 'pendiente de pedido', puedes pedirlo, pero se enviará una vez esté disponible.",
+                "Si un producto está disponible para 'pedido por adelantado', puedes asegurar tu artículo antes de que esté disponible."
+            ]
+        },
+        {
+            "tag": "Devoluciones",
+            "patterns": [
+                "recibo",
+                "embalaje original",
+                "descuento",
+                "tarjeta de regalo",
+                "paquete o conjunto",
+                "liquidación",
+                "daño durante el envío"
+            ],
+            "responses": [
+                "Normalmente se requiere un 'recibo' para las devoluciones.",
+                "Es preferible devolver el producto en su 'embalaje original', pero aún puedes devolverlo sin él.",
+                "Puedes devolver un producto comprado con 'descuento'. El reembolso se procesará en base al monto pagado después del descuento.",
+                "Si compraste un producto con 'tarjeta de regalo', el reembolso se emitirá en forma de crédito o nueva tarjeta.",
+                "Si un producto fue comprado como parte de un 'paquete o conjunto', la política de devolución puede variar.",
+                "Los productos de 'liquidación' generalmente no se pueden devolver ni reembolsar.",
+                "Si el producto fue dañado durante el 'envío', comunícate con atención al cliente para gestionar la devolución o reemplazo."
+            ]
+        },
+        {
+            "tag": "Reservas y stock",
+            "patterns": [
+                "poner en stock",
+                "reservar"
+            ],
+            "responses": [
+                "Si un producto no está en stock, puedes registrarte para recibir una notificación cuando vuelva a estar disponible.",
+                "No ofrecemos reservas para productos fuera de stock, pero puedes registrarte para ser notificado cuando vuelva."
+            ]
+        },
+        {
+            "tag": "Productos personalizados",
+            "patterns": [
+                "producto personalizado",
+                "pedido personalizado"
+            ],
+            "responses": [
+                "Actualmente no ofrecemos 'productos personalizados' ni 'pedidos personalizados'."
+            ]
+        },
+        {
+            "tag": "Edición limitada",
+            "patterns": [
+                "edición limitada"
+            ],
+            "responses": [
+                "Los productos de 'edición limitada' no se volverán a poner en stock una vez agotados."
+            ]
+        },
+        {
+            "tag": "Productos fuera de stock",
+            "patterns": [
+                "producto fuera de stock"
+            ],
+            "responses": [
+                "Si un producto está 'fuera de stock', puedes registrarte para recibir una alerta cuando vuelva a estar disponible."
+            ]
+        },
+        {
+            "tag": "Devoluciones",
+            "patterns": [
+                "devolver producto",
+                "comprado con descuento",
+                "comprado durante evento promocional",
+                "comprado con tarjeta de regalo",
+                "comprado con crédito de la tienda",
+                "comprado como parte de un paquete",
+                "producto dañado",
+                "producto de liquidación"
+            ],
+            "responses": [
+                "Puedes devolver un producto comprado con descuento. El reembolso se procesará según el monto pagado después del descuento.",
+                "Si el producto fue comprado durante un evento promocional, el reembolso se procesará según el monto pagado después de los descuentos.",
+                "Si un producto fue comprado con tarjeta de regalo, el reembolso se emitirá como crédito en la tienda o una nueva tarjeta de regalo.",
+                "Si compraste un producto con crédito de la tienda, el reembolso se emitirá en forma de crédito para futuras compras.",
+                "Si un producto fue comprado como parte de un paquete, la política de devolución puede variar. Consulta los términos y condiciones específicos.",
+                "Si el producto llegó dañado, comunícate con atención al cliente para iniciar un proceso de devolución o reemplazo.",
+                "Los artículos de liquidación o venta final normalmente no se pueden devolver. Consulta los términos específicos o contacta al equipo de atención."
+            ]
+        },
+        {
+            "tag": "Stock",
+            "patterns": [
+                "agotado",
+                "fuera de stock",
+                "descontinuado",
+                "próximamente",
+                "temporalmente no disponible",
+                "pedido anticipado",
+                "en espera",
+                "talla no disponible",
+                "edición limitada"
+            ],
+            "responses": [
+                "Si un producto está 'agotado', puedes registrarte para recibir notificaciones cuando vuelva a estar disponible.",
+                "Si un producto está 'fuera de stock' pero disponible para pedido anticipado, puedes realizar un pedido para asegurar tu artículo.",
+                "Si un producto está marcado como 'descontinuado', ya no está disponible para su compra.",
+                "Si un producto está marcado como 'próximamente' pero no está disponible para pedido anticipado, deberás esperar a que se lance oficialmente.",
+                "Si un producto está marcado como 'temporalmente no disponible', es probable que vuelva a estar en stock en el futuro.",
+                "Puedes realizar un pedido anticipado para productos 'en espera' o 'próximamente' y asegurar tu artículo antes de que esté disponible.",
+                "Si un producto no está disponible en tu 'talla', regístrate para recibir notificaciones cuando esté disponible nuevamente.",
+                "Los productos de 'edición limitada' no suelen volver a estar disponibles una vez que se agotan."
+            ]
+        },
+        {
+            "tag": "Cuenta y configuración",
+            "patterns": [
+                "restablecer contraseña",
+                "actualizar cuenta",
+                "información de cuenta"
+            ],
+            "responses": [
+                "Para 'restablecer tu contraseña', haz clic en 'Olvidé mi contraseña' en la página de inicio de sesión y sigue las instrucciones.",
+                "Para 'actualizar tu cuenta', inicia sesión y ve a la sección 'Configuración de la cuenta' para realizar los cambios.",
+                "Para 'actualizar la información de tu cuenta', inicia sesión y accede a la sección de 'Configuración' para hacer las modificaciones necesarias."
+            ]
+        },
+        {
+            "tag": "Política",
+            "patterns": [
+                "política de privacidad",
+                "cancelar suscripción",
+                "garantía de satisfacción",
+                "horario comercial"
+            ],
+            "responses": [
+                "Nuestra 'política de privacidad' describe cómo recopilamos y protegemos tu información personal. Consulta nuestra página de Política de Privacidad para más detalles.",
+                "Para 'cancelar la suscripción' a nuestro boletín, haz clic en 'Cancelar suscripción' en el correo o actualiza tus preferencias en la configuración de tu cuenta.",
+                "Nuestra 'garantía de satisfacción' asegura que estés satisfecho con tu compra. Consulta la política para más detalles.",
+                "Nuestro 'horario comercial' es [horario de trabajo], durante este horario nuestro equipo de atención al cliente está disponible para asistirte."
+            ]
+        },
+        {
+            "tag": "Pedidos",
+            "patterns": [
+                "cambiar pedido",
+                "cancelar pedido",
+                "pedir producto no disponible",
+                "solicitar producto"
+            ],
+            "responses": [
+                "Si necesitas 'cambiar tu pedido', contacta a nuestro equipo de atención al cliente lo antes posible para ver si es posible.",
+                "Para 'cancelar un pedido', contacta con nuestro equipo de atención al cliente lo antes posible antes de que se procese.",
+                "Si un producto no está disponible pero deseas 'solicitarlo', puedes hacer un pedido anticipado o esperar a que vuelva a estar disponible.",
+                "Puedes 'solicitar un producto' si no está disponible, dependiendo de su disponibilidad en stock o si se ofrece en un pedido anticipado."
+            ]
+        },
+        {
+            "tag": "Disponibilidad de productos",
+            "patterns": [
+                "producto disponible",
+                "producto agotado",
+                "producto próximo",
+                "producto en espera",
+                "producto fuera de stock",
+                "pedido anticipado"
+            ],
+            "responses": [
+                "Si un producto figura como 'próximamente' pero no está disponible para pedido anticipado, deberá esperar hasta que se lance oficialmente y esté disponible para su compra.",
+                "Si un producto está en la lista como 'en espera', no está disponible para su compra temporalmente. Vuelva a consultar más tarde o regístrese para recibir notificaciones cuando esté disponible.",
+                "Si un producto figura como 'agotado' pero está disponible para pedido anticipado, puedes realizar un pedido para asegurar tu artículo. El producto se enviará una vez que esté disponible.",
+                "Nuestro objetivo es volver a poner en stock los productos más populares siempre que sea posible. Regístrese para recibir notificaciones de productos y recibir una alerta cuando el artículo vuelva a estar disponible.",
+                "Si un producto figura como 'descontinuado' pero aún está visible en el sitio web, puede ser un error. Comuníquese con nuestro equipo de atención al cliente para obtener una aclaración.",
+                "Si un producto fue comprado como parte de un paquete o conjunto, la política de devolución puede variar. Consulta los términos y condiciones específicos o comunícate con nuestro equipo de atención al cliente para obtener más orientación.",
+                "Si un producto no está incluido en nuestro sitio web, es posible que no esté disponible para su compra. Le recomendamos que explore los productos disponibles o se comunique con nuestro equipo de atención al cliente para obtener más ayuda."
+            ]
+        },
+        {
+            "tag": "Devoluciones",
+            "patterns": [
+                "devolver producto",
+                "devolución sin recibo",
+                "devolver artículo de liquidación",
+                "devolver artículo de venta final",
+                "devolución por daño"
+            ],
+            "responses": [
+                "Si bien es preferible un recibo para las devoluciones, es posible que podamos ayudarlo sin él. Comuníquese con nuestro equipo de atención al cliente para obtener más orientación.",
+                "Los artículos de liquidación o venta final normalmente no se pueden devolver ni reembolsar. Revise la descripción del producto o comuníquese con nuestro equipo de atención al cliente para obtener más información.",
+                "Si su producto se dañó debido a un mal manejo durante el envío, comuníquese con nuestro equipo de atención al cliente de inmediato. Lo ayudaremos con los pasos necesarios para la devolución y el reemplazo."
+            ]
+        },
+        {
+            "tag": "Métodos de pago",
+            "patterns": [
+                "comprar con crédito tienda",
+                "comprar con tarjeta de regalo"
+            ],
+            "responses": [
+                "Sí, puedes devolver un producto comprado con crédito de la tienda. El reembolso se emitirá en forma de crédito de la tienda, que puedes usar para futuras compras.",
+                "Sí, puedes devolver un producto comprado con una tarjeta de regalo promocional. El reembolso se emitirá en forma de crédito en la tienda o una nueva tarjeta de regalo."
+            ]
+        },
+        {
+            "tag": "Política de privacidad",
+            "patterns": [
+                "política de privacidad",
+                "cancelar suscripción",
+                "horario comercial"
+            ],
+            "responses": [
+                "Nuestra política de privacidad describe cómo recopilamos, usamos y protegemos tu información personal. Visita nuestra página de Política de privacidad para obtener información detallada.",
+                "Para cancelar la suscripción a nuestro boletín informativo, haz clic en el enlace 'Cancelar suscripción' en la parte inferior de cualquiera de los correos electrónicos de nuestro boletín informativo o actualiza tus preferencias en la configuración de tu cuenta.",
+                "Nuestro horario comercial es [horario de trabajo]. Durante este horario, nuestro equipo de atención al cliente está disponible para ayudarte con cualquier consulta o problema."
+            ]
+        },
+        {
+            "tag": "Reembolsos",
+            "patterns": [
+                "reembolso precio bajo",
+                "reembolso por precio bajo"
+            ],
+            "responses": [
+                "Si el precio de un producto baja dentro de los 7 días posteriores a tu compra, puedes tener derecho a un ajuste de precio. Comunícate con nuestro equipo de atención al cliente con los detalles de tu pedido."
+            ]
+        },
+        {
+            "tag": "Cuenta y configuración",
+            "patterns": [
+                "restablecer contraseña",
+                "actualizar cuenta",
+                "información de cuenta"
+            ],
+            "responses": [
+                "Para restablecer tu contraseña, haz clic en 'Olvidé mi contraseña' en la página de inicio de sesión y sigue las instrucciones.",
+                "Para actualizar la información de tu cuenta, inicia sesión en tu cuenta, navega a la sección 'Configuración de la cuenta' y realiza los cambios necesarios."
+            ]
+        },
+        {
+            "tag": "Empleo",
+            "patterns": [
+                "postularme a un trabajo",
+                "trabajo en su empresa"
+            ],
+            "responses": [
+                "Para postularte a un trabajo en nuestra empresa, visita nuestra página de Carreras, donde podrás encontrar ofertas de trabajo actuales y enviar tu solicitud."
+            ]
+        },
+        {
+            "tag": "Pedidos",
+            "patterns": [
+                "cambiar pedido",
+                "modificar pedido"
+            ],
+            "responses": [
+                "Si necesitas cambiar tu pedido, comunícate con nuestro equipo de atención al cliente lo antes posible. Haremos todo lo posible para atender tu solicitud si el pedido aún no se ha procesado."
+            ]
+        },
+        {
+        "tag": "Devoluciones y reembolsos",
+        "patterns": [
+            "devolver producto",
+            "reembolso",
+            "devolución por tarjeta de regalo",
+            "reembolso por precio bajo",
+            "producto comprado con crédito"
+        ],
+        "responses": [
+            "Sí, puedes devolver un producto comprado con crédito de la tienda. El reembolso se emitirá en forma de crédito de la tienda, que puedes usar para futuras compras.",
+            "Sí, puedes devolver un producto comprado con una tarjeta de regalo promocional. El reembolso se emitirá en forma de crédito en la tienda o una nueva tarjeta de regalo.",
+            "Si el precio de un producto baja dentro de los 7 días posteriores a tu compra, puedes tener derecho a un ajuste de precio. Comunícate con nuestro equipo de atención al cliente con los detalles de tu pedido."
+        ]
+    },
+    {
+        "tag": "Stock y disponibilidad",
+        "patterns": [
+            "producto agotado",
+            "reponer stock",
+            "producto agotado pero disponible para pedido anticipado",
+            "producto próximamente"
+        ],
+        "responses": [
+            "Nos esforzamos por volver a poner en stock los productos más populares siempre que sea posible. Regístrese para recibir notificaciones sobre productos y recibir información cuando el artículo vuelva a estar disponible.",
+            "Si un producto figura como 'agotado' pero está disponible para pedido anticipado, puedes realizar un pedido para asegurar tu artículo. El producto se enviará una vez que esté disponible.",
+            "Si un producto figura como 'próximamente' pero no está disponible para pedido anticipado, deberá esperar hasta que se lance oficialmente y esté disponible para su compra."
+        ]
+    },
+    {
+        "tag": "Cuenta y configuración",
+        "patterns": [
+            "actualizar información de cuenta",
+            "cambiar pedido",
+            "configuración de cuenta"
+        ],
+        "responses": [
+            "Para actualizar la información de su cuenta, inicie sesión en su cuenta, navegue a la sección 'Configuración de la cuenta' y realice los cambios necesarios.",
+            "Si necesita cambiar su pedido, comuníquese con nuestro equipo de atención al cliente lo antes posible. Haremos todo lo posible para atender su solicitud si el pedido aún no se ha procesado."
+        ]
+    },
+    {
+        "tag": "Política de privacidad",
+        "patterns": [
+            "política de privacidad"
+        ],
+        "responses": [
+            "Nuestra política de privacidad describe cómo recopilamos, usamos y protegemos su información personal. Visite nuestra página de Política de privacidad para obtener información detallada."
+        ]
+    },
+    {
+        "tag": "Boletín informativo",
+        "patterns": [
+            "cancelar suscripción",
+            "cancelar boletín"
+        ],
+        "responses": [
+            "Para cancelar la suscripción a nuestro boletín informativo, haga clic en el enlace 'Cancelar suscripción' en la parte inferior de cualquiera de los correos electrónicos de nuestro boletín informativo o actualice sus preferencias en la configuración de su cuenta."
+        ]
+    },
+    {
+        "tag": "Horario comercial",
+        "patterns": [
+            "horario comercial",
+            "horario atención al cliente"
+        ],
+        "responses": [
+            "Nuestro horario comercial es [horario de trabajo]. Durante este horario, nuestro equipo de atención al cliente está disponible para ayudarlo con cualquier consulta o problema."
+        ]
+    },
+    {
+        "tag": "Garantía de satisfacción",
+        "patterns": [
+            "garantía de satisfacción",
+            "devolución por insatisfacción"
+        ],
+        "responses": [
+            "Sí, ofrecemos garantía de satisfacción en nuestros productos. Si no está satisfecho con su compra, comuníquese con nuestro equipo de atención al cliente para obtener ayuda."
+        ]
+    },
+    {
+        "tag": "Empleo",
+        "patterns": [
+            "trabajo en la empresa",
+            "postularse a un trabajo"
+        ],
+        "responses": [
+            "Para postularse a un trabajo en nuestra empresa, visite nuestra página de Carreras, donde podrá encontrar ofertas de trabajo actuales y enviar su solicitud."
+        ]
+    },
+    {
+        "tag": "Garantía de productos",
+        "patterns": [
+            "garantía productos",
+            "garantía de productos"
+        ],
+        "responses": [
+            "La garantía de nuestros productos varía según el artículo. Consulte la página del producto para obtener información específica sobre la garantía o comuníquese con nuestro equipo de atención al cliente."
+        ]
+    },
+    {
+        "tag": "Devoluciones y reembolsos",
+        "patterns": [
+            "devolver producto",
+            "reembolso",
+            "devolución por tarjeta de regalo",
+            "reembolso por precio bajo",
+            "producto comprado con crédito"
+        ],
+        "responses": [
+            "Sí, puedes devolver un producto comprado con crédito de la tienda. El reembolso se emitirá en forma de crédito de la tienda, que puedes usar para futuras compras.",
+            "Sí, puedes devolver un producto comprado con una tarjeta de regalo promocional. El reembolso se emitirá en forma de crédito en la tienda o una nueva tarjeta de regalo.",
+            "Si el precio de un producto baja dentro de los 7 días posteriores a tu compra, puedes tener derecho a un ajuste de precio. Comunícate con nuestro equipo de atención al cliente con los detalles de tu pedido."
+        ]
+    },
+    {
+        "tag": "Stock y disponibilidad",
+        "patterns": [
+            "producto agotado",
+            "reponer stock",
+            "producto agotado pero disponible para pedido anticipado",
+            "producto próximamente"
+        ],
+        "responses": [
+            "Nos esforzamos por volver a poner en stock los productos más populares siempre que sea posible. Regístrese para recibir notificaciones sobre productos y recibir información cuando el artículo vuelva a estar disponible.",
+            "Si un producto figura como 'agotado' pero está disponible para pedido anticipado, puedes realizar un pedido para asegurar tu artículo. El producto se enviará una vez que esté disponible.",
+            "Si un producto figura como 'próximamente' pero no está disponible para pedido anticipado, deberá esperar hasta que se lance oficialmente y esté disponible para su compra."
+        ]
+    },
+    {
+        "tag": "Cuenta y configuración",
+        "patterns": [
+            "actualizar información de cuenta",
+            "cambiar pedido",
+            "configuración de cuenta"
+        ],
+        "responses": [
+            "Para actualizar la información de su cuenta, inicie sesión en su cuenta, navegue a la sección 'Configuración de la cuenta' y realice los cambios necesarios.",
+            "Si necesita cambiar su pedido, comuníquese con nuestro equipo de atención al cliente lo antes posible. Haremos todo lo posible para atender su solicitud si el pedido aún no se ha procesado."
+        ]
+    },
+    {
+        "tag": "Política de privacidad",
+        "patterns": [
+            "política de privacidad"
+        ],
+        "responses": [
+            "Nuestra política de privacidad describe cómo recopilamos, usamos y protegemos su información personal. Visite nuestra página de Política de privacidad para obtener información detallada."
+        ]
+    },
+    {
+        "tag": "Boletín informativo",
+        "patterns": [
+            "cancelar suscripción",
+            "cancelar boletín"
+        ],
+        "responses": [
+            "Para cancelar la suscripción a nuestro boletín informativo, haga clic en el enlace 'Cancelar suscripción' en la parte inferior de cualquiera de los correos electrónicos de nuestro boletín informativo o actualice sus preferencias en la configuración de su cuenta."
+        ]
+    },
+    {
+        "tag": "Horario comercial",
+        "patterns": [
+            "horario comercial",
+            "horario atención al cliente"
+        ],
+        "responses": [
+            "Nuestro horario comercial es [horario de trabajo]. Durante este horario, nuestro equipo de atención al cliente está disponible para ayudarlo con cualquier consulta o problema."
+        ]
+    },
+    {
+        "tag": "Garantía de satisfacción",
+        "patterns": [
+            "garantía de satisfacción",
+            "devolución por insatisfacción"
+        ],
+        "responses": [
+            "Sí, ofrecemos garantía de satisfacción en nuestros productos. Si no está satisfecho con su compra, comuníquese con nuestro equipo de atención al cliente para obtener ayuda."
+        ]
+    },
+    {
+        "tag": "Empleo",
+        "patterns": [
+            "trabajo en la empresa",
+            "postularse a un trabajo"
+        ],
+        "responses": [
+            "Para postularse a un trabajo en nuestra empresa, visite nuestra página de Carreras, donde podrá encontrar ofertas de trabajo actuales y enviar su solicitud."
+        ]
+    },
+    {
+        "tag": "Garantía de productos",
+        "patterns": [
+            "garantía productos",
+            "garantía de productos"
+        ],
+        "responses": [
+            "La garantía de nuestros productos varía según el artículo. Consulte la página del producto para obtener información específica sobre la garantía o comuníquese con nuestro equipo de atención al cliente."
+        ]
+    },
+    {
+        "tag": "Restablecer contraseña",
+        "patterns": [
+            "restablecer contraseña"
+        ],
+        "responses": [
+            "Para restablecer su contraseña, haga clic en el enlace 'Olvidé mi contraseña' en la página de inicio de sesión y siga las instrucciones."
+        ]
+    },
+    {
+        "tag": "Actualizar cuenta",
+        "patterns": [
+            "actualizar cuenta",
+            "configuración cuenta",
+            "modificar cuenta"
+        ],
+        "responses": [
+            "Para actualizar la información de su cuenta, inicie sesión en su cuenta, navegue a la sección 'Configuración de la cuenta' y realice los cambios necesarios."
+        ]
+    },
+    {
+        "tag": "Política de privacidad",
+        "patterns": [
+            "política privacidad",
+            "protección de datos",
+            "privacidad"
+        ],
+        "responses": [
+            "Nuestra política de privacidad describe cómo recopilamos, usamos y protegemos su información personal. Visite nuestra página de Política de privacidad para obtener información detallada."
+        ]
+    },
+    {
+        "tag": "Cambio de pedido",
+        "patterns": [
+            "cambiar pedido",
+            "modificar pedido",
+            "cambio de compra"
+        ],
+        "responses": [
+            "Si necesita cambiar su pedido, comuníquese con nuestro equipo de atención al cliente lo antes posible. Haremos todo lo posible para atender su solicitud si el pedido aún no se ha procesado."
+        ]
+    },
+    {
+        "tag": "Cancelar suscripción",
+        "patterns": [
+            "cancelar suscripción",
+            "dejar de recibir boletín",
+            "quitarme del boletín"
+        ],
+        "responses": [
+            "Para cancelar la suscripción a nuestro boletín informativo, haga clic en el enlace 'Cancelar suscripción' en la parte inferior de cualquiera de los correos electrónicos de nuestro boletín informativo o actualice sus preferencias en la configuración de su cuenta."
+        ]
+    },
+    {
+        "tag": "Horario comercial",
+        "patterns": [
+            "horario de atención",
+            "horario comercial",
+            "horarios"
+        ],
+        "responses": [
+            "Nuestro horario comercial es [horario de trabajo]. Durante este horario, nuestro equipo de atención al cliente está disponible para ayudarlo con cualquier consulta o problema."
+        ]
+    },
+    {
+        "tag": "Garantía de satisfacción",
+        "patterns": [
+            "garantía satisfacción",
+            "devolución garantía",
+            "satisfacción"
+        ],
+        "responses": [
+            "Sí, ofrecemos garantía de satisfacción en nuestros productos. Si no está satisfecho con su compra, comuníquese con nuestro equipo de atención al cliente para obtener ayuda."
+        ]
+    },
+    {
+        "tag": "Empleo",
+        "patterns": [
+            "trabajo",
+            "empleo",
+            "postularse trabajo"
+        ],
+        "responses": [
+            "Para postularme a un trabajo en nuestra empresa, visite nuestra página de Carreras, donde podrá encontrar ofertas de trabajo actuales y enviar su solicitud."
+        ]
+    },
+    {
+        "tag": "Garantía de productos",
+        "patterns": [
+            "garantía productos",
+            "garantía de productos"
+        ],
+        "responses": [
+            "La garantía de nuestros productos varía según el artículo. Consulte la página del producto para obtener información específica sobre la garantía o comuníquese con nuestro equipo de atención al cliente."
+        ]
+    },
+    {
+        "tag": "Reembolso por precio bajo",
+        "patterns": [
+            "ajuste de precio",
+            "reembolso precio bajo",
+            "ajuste de valor"
+        ],
+        "responses": [
+            "Si el precio de un producto baja dentro de los 7 días posteriores a tu compra, puedes tener derecho a un ajuste de precio. Comunícate con nuestro equipo de atención al cliente con los detalles de tu pedido."
+        ]
+    },
+    {
+        "tag": "Cambio de pedido",
+        "patterns": [
+            "cambiar pedido",
+            "modificar pedido"
+        ],
+        "responses": [
+            "Si necesita cambiar su pedido, comuníquese con nuestro equipo de atención al cliente lo antes posible. Haremos todo lo posible para atender su solicitud si el pedido aún no se ha procesado."
+        ]
+    },
+    {
+        "tag": "Cancelación de suscripción",
+        "patterns": [
+            "cancelar suscripción",
+            "boletín informativo",
+            "darse de baja"
+        ],
+        "responses": [
+            "Para cancelar la suscripción a nuestro boletín informativo, haga clic en el enlace 'Cancelar suscripción' en la parte inferior de cualquiera de los correos electrónicos de nuestro boletín informativo o actualice sus preferencias en la configuración de su cuenta."
+        ]
+    },
+    {
+        "tag": "Horario comercial",
+        "patterns": [
+            "horario comercial",
+            "horarios de atención"
+        ],
+        "responses": [
+            "Nuestro horario comercial es [horario de trabajo]. Durante este horario, nuestro equipo de atención al cliente está disponible para ayudarlo con cualquier consulta o problema."
+        ]
+    },
+    {
+        "tag": "Garantía de satisfacción",
+        "patterns": [
+            "garantía de satisfacción",
+            "satisfacción del cliente"
+        ],
+        "responses": [
+            "Sí, ofrecemos garantía de satisfacción en nuestros productos. Si no está satisfecho con su compra, comuníquese con nuestro equipo de atención al cliente para obtener ayuda."
+        ]
+    },
+    {
+        "tag": "Postulación a empleo",
+        "patterns": [
+            "postularme trabajo",
+            "trabajo en la empresa",
+            "ofertas de empleo"
+        ],
+        "responses": [
+            "Para postularme a un trabajo en nuestra empresa, visite nuestra página de Carreras, donde podrá encontrar ofertas de trabajo actuales y enviar su solicitud."
+        ]
+    },
+    {
+        "tag": "Garantía de productos",
+        "patterns": [
+            "garantía productos",
+            "garantía de productos"
+        ],
+        "responses": [
+            "La garantía de nuestros productos varía según el artículo. Consulte la página del producto para obtener información específica sobre la garantía o comuníquese con nuestro equipo de atención al cliente."
+        ]
+    },
+    {
+        "tag": "Reembolso por ajuste de precio",
+        "patterns": [
+            "reembolso precio",
+            "ajuste de precio",
+            "precio más bajo después de compra"
+        ],
+        "responses": [
+            "Si el precio de un producto baja dentro de los 7 días posteriores a tu compra, puedes tener derecho a un ajuste de precio. Comunícate con nuestro equipo de atención al cliente con los detalles de tu pedido."
+        ]
+    },
+    {
+        "tag": "Horario comercial",
+        "patterns": [
+            "horario comercial",
+            "horarios de atención"
+        ],
+        "responses": [
+            "Nuestro horario comercial es [horario de trabajo]. Durante este horario, nuestro equipo de atención al cliente está disponible para ayudarlo con cualquier consulta o problema."
+        ]
+    },
+    {
+        "tag": "Garantía de satisfacción",
+        "patterns": [
+            "garantía de satisfacción",
+            "satisfacción del cliente"
+        ],
+        "responses": [
+            "Sí, ofrecemos garantía de satisfacción en nuestros productos. Si no está satisfecho con su compra, comuníquese con nuestro equipo de atención al cliente para obtener ayuda."
+        ]
+    },
+    {
+        "tag": "Postulación a empleo",
+        "patterns": [
+            "postularme trabajo",
+            "trabajo en la empresa",
+            "ofertas de empleo"
+        ],
+        "responses": [
+            "Para postularme a un trabajo en nuestra empresa, visite nuestra página de Carreras, donde podrá encontrar ofertas de trabajo actuales y enviar su solicitud."
+        ]
+    },
+    {
+        "tag": "Garantía de productos",
+        "patterns": [
+            "garantía productos",
+            "garantía de productos"
+        ],
+        "responses": [
+            "La garantía de nuestros productos varía según el artículo. Consulte la página del producto para obtener información específica sobre la garantía o comuníquese con nuestro equipo de atención al cliente."
+        ]
+    },
+    {
+        "tag": "Reembolso por ajuste de precio",
+        "patterns": [
+            "reembolso precio",
+            "ajuste de precio",
+            "precio más bajo después de compra"
+        ],
+        "responses": [
+            "Si el precio de un producto baja dentro de los 7 días posteriores a tu compra, puedes tener derecho a un ajuste de precio. Comunícate con nuestro equipo de atención al cliente con los detalles de tu pedido."
+        ]
+    },
+    {
+        "tag": "Cambio de pedido",
+        "patterns": [
+            "cambiar pedido",
+            "modificar pedido"
+        ],
+        "responses": [
+            "Si necesita cambiar su pedido, comuníquese con nuestro equipo de atención al cliente lo antes posible. Haremos todo lo posible para atender su solicitud si el pedido aún no se ha procesado."
+        ]
+    },
+    {
+        "tag": "Cancelación de suscripción",
+        "patterns": [
+            "cancelar suscripción",
+            "boletín informativo",
+            "darse de baja"
+        ],
+        "responses": [
+            "Para cancelar la suscripción a nuestro boletín informativo, haga clic en el enlace 'Cancelar suscripción' en la parte inferior de cualquiera de los correos electrónicos de nuestro boletín informativo o actualice sus preferencias en la configuración de su cuenta."
+        ]
+    },
+    {
+        "tag": "Métodos de pago",
+        "patterns": ["métodos", "pago", "aceptan", "pagar", "PayPal", "opciones", "pago"],
+        "responses": [
+            "aceptamos tarjetas de crédito, PayPal, transferencias bancarias",
+            "pagar con tarjeta de crédito, PayPal o transferencia bancaria"
+        ]
+        },
+        {
+        "tag": "Envíos",
+        "patterns": ["rastrear", "pedido", "cuánto", "tarda", "llegar", "pedido", "ciudades", "envíos"],
+        "responses": [
+            "puedes rastrear tu pedido con el número de seguimiento por correo",
+            "los tiempos de entrega son entre 3 y 7 días hábiles a todo el país"
+        ]
+        },
+        {
+        "tag": "Política de devoluciones",
+        "patterns": ["devolver", "producto", "devolución", "hacer", "quiero", "devolver", "algo", "política"],
+        "responses": [
+            "puedes devolver los productos dentro de los 30 días posteriores a la compra",
+            "las devoluciones son fáciles, puedes iniciar el proceso desde nuestra página web"
+        ]
+        },
+        {
+        "tag": "Garantía",
+        "patterns": ["garantía", "productos", "fallos", "qué", "hacer", "producto", "llega", "defectuoso"],
+        "responses": [
+            "todos nuestros productos tienen una garantía de 12 meses",
+            "ofrecemos garantía en productos con defectos de fabricación, con opción de reemplazo o devolución de dinero"
+        ]
+        },
+    
+        
+        {
+            "tag": "Devoluciones",
+            "patterns": ["ofrecen", "reembolsos", "producto", "reembolso", "obtener", "reembolso"],
+            "responses": [
+            "Sí, ofrecemos reembolsos si decides devolver el producto dentro del plazo establecido.",
+            "Los reembolsos se procesan dentro de los 7 días hábiles y se realizan al mismo método de pago utilizado."
+            ]
+        },
+        {
+            "tag": "Promociones",
+            "patterns": ["descuentos", "oferta", "promoción", "como", "saber", "promoción"],
+            "responses": [
+            "Sí, ofrecemos promociones especiales. Puedes estar al tanto suscribiéndote a nuestro boletín de novedades.",
+            "Encuentra todas nuestras ofertas y descuentos en la sección de promociones en nuestra web."
+            ]
+        },
+        {
+            "tag": "Soporte técnico",
+            "patterns": ["producto", "funciona", "soporte", "problemas", "técnicos", "ayuda", "producto"],
+            "responses": [
+            "Si tienes problemas con tu producto, contáctanos a través de nuestro soporte técnico.",
+            "Puedes recibir ayuda técnica a través de correo electrónico o chat en vivo desde nuestra sección de soporte en el sitio web."
+            ]
+        },
+        {
+            "tag": "Registro",
+            "patterns": ["registrarme", "tienda", "crear", "cuenta", "hacer", "registrarme"],
+            "responses": [
+            "Para registrarte, simplemente haz clic en 'Crear cuenta' en la página principal.",
+            "Ingresa tu correo y contraseña para crear tu cuenta."
+            ]
+        },
+        {
+            "tag": "Seguimiento",
+            "patterns": ["estado", "pedido", "saber", "pedido", "rastrear", "pedido", "donde", "pedido"],
+            "responses": [
+            "Puedes conocer el estado de tu pedido ingresando el número de seguimiento en nuestra página de rastreo.",
+            "Recibirás un enlace de seguimiento por correo para conocer el estado de tu pedido."
+            ]
+        },
+        {
+            "tag": "Tiempos de entrega",
+            "patterns": ["cuánto", "tiempo", "tarda", "pedido", "plazo", "recibo", "compra", "cuándo", "llegará"],
+            "responses": [
+                "El tiempo de entrega varía según tu ubicación, pero el promedio es de entre 3 y 7 días hábiles.",
+                "Tu pedido llegará dentro de un plazo de 3 a 7 días hábiles, dependiendo de tu ubicación."
+            ]
+        },
+        {
+            "tag": "Inventario",
+            "patterns": ["tienen", "stock", "producto", "artículo", "disponible", "vuelve", "a", "haber", "stock"],
+            "responses": [
+                "La disponibilidad del producto depende del stock y las reposiciones. Si está agotado, te notificaremos la fecha en que estará disponible nuevamente."
+            ]
+        },
+        {
+            "tag": "Condiciones de uso",
+            "patterns": ["cuáles", "condiciones", "uso", "aplican", "servicio", "restricción", "uso", "tienda"],
+            "responses": [
+                "Las condiciones de uso de la tienda están detalladas en nuestra política. Los productos deben ser adquiridos de acuerdo con estos términos, que debes aceptar al completar el registro."
+            ]
+        },
+        {
+            "tag": "Servicio al cliente",
+            "patterns": ["cómo", "contacto", "servicio", "cliente", "necesito", "ayuda", "soporte"],
+            "responses": [
+                "Puedes contactar con nuestro servicio al cliente a través de correo electrónico, número de teléfono o chat en vivo para recibir atención y asistencia directa."
+            ]
+        },
+        {
+            "tag": "Cancelaciones",
+            "patterns": ["cómo", "cancelo", "pedido", "cancelar", "compra", "hacer", "cancelar", "pedido"],
+            "responses": [
+                "Para cancelar un pedido, ingresa a la sección de cancelación. Ten en cuenta que solo puedes cancelar el pedido dentro de las primeras 24 horas del proceso de compra."
+            ]
+        },
+        {
+            "tag": "Descuentos",
+            "patterns": ["descuentos", "tienda", "obtener", "descuento", "cupones"],
+            "responses": [
+                "Sí, tenemos descuentos disponibles. Puedes aplicar cupones de descuento al recibir nuestras promociones en el newsletter o acceder a la sección de ofertas en la web."
+            ]
+        },
+        {
+            "tag": "Seguridad",
+            "patterns": ["seguro", "comprar", "tienda", "proteger", "información", "medidas", "seguridad"],
+            "responses": [
+                "En nuestra tienda, tomamos medidas de seguridad avanzadas para proteger tus datos personales. Usamos encriptación para todas las transacciones, garantizando pagos seguros y protección de tu información."
+            ]
+        },
+        {
+            "tag": "Métodos de pago",
+            "patterns": ["formas", "pago", "aceptan", "tarjeta", "débito", "pagar", "métodos", "pago"],
+            "responses": [
+                "tarjetas débito crédito PayPal transferencia bancaria efectivo métodos pago seguro"
+            ]
+        },
+        {
+            "tag": "Precios",
+            "patterns": ["por", "producto", "caro", "precios", "especiales", "establecen", "precios", "productos"],
+            "responses": [
+                "precios competitivos productos calidad determinados costos fabricación ofertas productos promociones"
+            ]
+        },
+        {
+            "tag": "Registro",
+            "patterns": ["cómo", "crear", "cuenta", "registrar", "necesario", "registrarse", "comprar"],
+            "responses": [
+                "crear cuenta fácil proceso registrarse correo contraseña crear acceso página principal"
+            ]
+        },
+        {
+            "tag": "Envíos internacionales",
+            "patterns": ["realizan", "envíos", "fuera", "país", "entregas", "internacionales", "recibir", "producto", "territorio"],
+            "responses": [
+                "envíos internacionales disponibles alrededor mundo gastos adicionales dependen ubicación país"
+            ]
+        },
+        {
+            "tag": "Almacenaje",
+            "patterns": ["dónde", "almacenan", "productos", "almacenan", "artículos", "seguro", "almacenaje"],
+            "responses": [
+                "almacenaje productos seguro procedimientos control temperatura clima adecuado"
+            ]
+        },
+        {
+            "tag": "Recomendaciones de productos",
+            "patterns": ["recomendar", "producto", "conviene", "más", "producto", "recomendado"],
+            "responses": [
+                "recomendación productos variedad preferencias cliente mejor opciones más convenientes"
+            ]
+        },
+        
+        
+        {
+            "tag": "Atención al cliente",
+            "patterns": ["hora", "contactar", "servicio", "atención", "disponible", "soporte", "24 horas"],
+            "responses": [
+            "Atención al cliente", 
+            "Soporte disponible", 
+            "Horario de contacto", 
+            "Asistencia 24 horas"
+            ]
+        },
+        {
+            "tag": "Política de cookies",
+            "patterns": ["cookies", "gestión", "página", "política", "aceptación"],
+            "responses": [
+            "Cookies", 
+            "Política de cookies", 
+            "Gestión de cookies", 
+            "Aceptación de cookies"
+            ]
+        },
+        {
+            "tag": "Ofertas flash",
+            "patterns": ["ofertas flash", "aprovechar", "encontrar", "descuentos especiales", "promociones rápidas"],
+            "responses": [
+            "Ofertas flash", 
+            "Descuentos especiales", 
+            "Ofertas limitadas", 
+            "Promociones rápidas"
+            ]
+        },
+        {
+            "tag": "Pedidos masivos",
+            "patterns": ["pedido masivo", "compras al por mayor", "precios especiales", "descuentos en grandes cantidades"],
+            "responses": [
+            "Pedidos masivos", 
+            "Compras al por mayor", 
+            "Precios especiales", 
+            "Descuentos en grandes cantidades"
+            ]
+        },
+        {
+            "tag": "Reseñas de productos",
+            "patterns": ["dejar reseña", "ver opiniones", "calificar productos", "valoración de clientes"],
+            "responses": [
+            "Dejar reseñas", 
+            "Ver opiniones", 
+            "Calificar productos", 
+            "Valoración de clientes"
+            ]
+        },
+        {
+            "tag": "Suscripción",
+            "patterns": ["suscribir", "opción de suscripción", "beneficios", "descuentos por suscripción", "promociones"],
+            "responses": [
+            "Suscripción", 
+            "Beneficios exclusivos", 
+            "Descuentos por suscripción", 
+            "Acceso a promociones"
+            ]
+        },
+        {
+            "tag": "Devoluciones de dinero",
+            "patterns": ["reembolso", "dinero de vuelta", "proceso", "confirmación de reembolso"],
+            "responses": [
+            "Reembolsos", 
+            "Devolución de dinero", 
+            "Proceso de reembolso", 
+            "Confirmación de reembolso"
+            ]
+        },
+        {
+            "tag": "Métodos de pago",
+            "patterns": ["métodos de pago", "tarjeta de crédito", "pago contra reembolso", "transferencia bancaria"],
+            "responses": [
+            "Métodos de pago", 
+            "Tarjeta de crédito", 
+            "Pago contra reembolso", 
+            "Transferencia bancaria"
+            ]
+        },
+        {
+            "tag": "Ventas especiales",
+            "patterns": ["ventas especiales", "promociones para productos", "fechas de ventas", "descuentos especiales"],
+            "responses": [
+            "Ventas especiales", 
+            "Promociones para productos", 
+            "Fechas de ventas", 
+            "Descuentos especiales"
+            ]
+        },
+        {
+            "tag": "Contacto",
+            "patterns": ["contacto", "servicio al cliente", "número de contacto", "correo de atención", "página de contacto"],
+            "responses": [
+            "Contacto servicio al cliente", 
+            "Número de contacto", 
+            "Correo de atención", 
+            "Página de contacto"
+            ]
+        },
+        {
+        "tag": "Recomendaciones",
+        "patterns": ["productos", "recomiendan", "productos recomendados", "encontrar productos", "intereses"],
+        "responses": [
+            "Te recomendamos productos personalizados según tus intereses y historial de compras. Puedes buscar productos por categorías."
+        ]
+        },
+        {
+        "tag": "Descuentos por volumen",
+        "patterns": ["descuentos", "compras al por mayor", "descuento por volumen", "descuento grandes cantidades"],
+        "responses": [
+            "Ofrecemos descuentos por volumen en productos seleccionados. El descuento depende de la cantidad que compres y de las ofertas vigentes."
+        ]
+        },
+        {
+        "tag": "Durabilidad",
+        "patterns": ["duraderos", "productos duraderos", "tiempo duran", "calidad y durabilidad"],
+        "responses": [
+            "Nuestros productos están hechos para ser duraderos. Ofrecemos garantía de calidad y soporte durante su uso."
+        ]
+        },
+        {
+        "tag": "Pedidos internacionales",
+        "patterns": ["envíos internacionales", "comprar desde otro país", "costo envío internacional"],
+        "responses": [
+            "Sí, realizamos envíos internacionales. Los costos de envío varían dependiendo del país y el peso del paquete."
+        ]
+        },
+        {
+        "tag": "Promociones especiales",
+        "patterns": ["promociones nuevos clientes", "descuentos primeros pedidos", "promociones especiales"],
+        "responses": [
+            "Ofrecemos promociones especiales para nuevos clientes, incluyendo descuentos en los primeros pedidos y otras ofertas exclusivas."
+        ]
+        },
+        {
+        "tag": "Productos agotados",
+        "patterns": ["producto agotado", "recibir notificación", "producto disponible pronto", "saber disponibilidad producto"],
+        "responses": [
+            "Si un producto está agotado, puedes suscribirte a una notificación para saber cuando vuelva a estar disponible o consultar alternativas."
+        ]
+        },
+        {
+        "tag": "Satisfacción",
+        "patterns": ["asegurarme de que me gustará", "devolver un producto", "no estoy satisfecho", "ajustar mi compra"],
+        "responses": [
+            "Si no estás satisfecho con tu compra, puedes devolver el producto dentro del plazo establecido. Ofrecemos opciones para ajustar tu compra."
+        ]
+        },
+
+
+        {
+            "tag": "Sostenibilidad",
+            "patterns": ["productos ecológicos", "sostenibilidad productos", "garantizan sostenibilidad", "producción sostenible"],
+            "responses": [
+            "Nuestros productos son ecológicos y seguimos prácticas sostenibles en la producción. Contamos con certificaciones de responsabilidad ambiental."
+            ]
+        },
+        {
+            "tag": "Envíos gratuitos",
+            "patterns": ["envío gratuito", "obtener envío gratuito", "condiciones envío gratuito", "cuando envío gratuito"],
+            "responses": [
+            "Ofrecemos envío gratuito en ciertas promociones. Puedes acceder al beneficio cumpliendo con un mínimo de compra establecido."
+            ]
+        },
+        {
+            "tag": "Cancelación de pedidos",
+            "patterns": ["cancelar pedido", "cancelar compra antes envío", "cancelar pedido", "modificar cancelación pedido"],
+            "responses": [
+            "Puedes cancelar tu pedido si aún no ha sido enviado. Si deseas modificar o gestionar la cancelación, contacta con nuestro equipo de atención al cliente."
+            ]
+        },
+        {
+            "tag": "Precios",
+            "patterns": ["precios más altos", "determinan precio producto", "productos rebajados", "precios especiales productos"],
+            "responses": [
+            "El precio de un producto depende de varios factores como el costo de producción, la demanda y las ofertas disponibles. A veces tenemos productos en rebajas o con descuentos especiales."
+            ]
+        },
+        {
+            "tag": "Facturación electrónica",
+            "patterns": ["recibir factura electrónica", "solicitar factura electrónica", "ofrecen facturación electrónica"],
+            "responses": [
+            "Sí, ofrecemos la opción de recibir factura electrónica. Puedes solicitarla al momento de la compra o procesarla más tarde en tu cuenta de usuario."
+            ]
+        },
+        {
+            "tag": "Descuento por primera compra",
+            "patterns": ["descuento primera compra", "descuento si es primera compra", "descuento por primera compra"],
+            "responses": [
+            "Sí, ofrecemos un descuento especial para la primera compra. El porcentaje varía según las condiciones y la oferta vigente."
+            ]
+        },
+        {
+            "tag": "Cuidados de los productos",
+            "patterns": ["cuidar productos", "recomendaciones para productos", "mantener productos en buen estado", "cuidar compras para durar más"],
+            "responses": [
+            "Te recomendamos seguir las instrucciones de cuidado específicas para cada producto, como la limpieza adecuada y el mantenimiento regular, para asegurar su durabilidad."
+            ]
+        },
+    
+        {
+        "tag": "Cambios en la tienda",
+        "patterns": ["cambiar producto en tienda", "hacer cambios tienda física", "cambio de producto online", "realizar cambio producto tienda"],
+        "responses": [
+            "Puedes realizar el cambio de tu producto en la tienda física o solicitarlo online, siguiendo el proceso y detalles indicados en nuestra política de cambios."
+        ]
+        },
+        {
+        "tag": "Membresía",
+        "patterns": ["ofrecen membresía", "obtener membresía tienda", "beneficios ser miembro tienda", "cómo obtener membresía tienda"],
+        "responses": [
+            "Ofrecemos una membresía que te da acceso a descuentos exclusivos, ofertas especiales y otros beneficios. Puedes registrarte en nuestra tienda para obtenerla."
+        ]
+        },
+        {
+        "tag": "Garantía extendida",
+        "patterns": ["garantía extendida", "ofrecen garantías extendidas productos", "funciona garantía extendida", "adquirir garantía extendida"],
+        "responses": [
+            "Sí, ofrecemos garantías extendidas para ciertos productos. Puedes adquirirla en el momento de la compra y disfrutar de una cobertura adicional por un plazo mayor."
+        ]
+        }    
+                      
+                       
+]}
